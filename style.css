@@ -31,7 +31,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0 0px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.webp");
     background-size: 280px 280px;
+    
 }
 
 .b-parallax {
@@ -328,6 +329,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    margin-right: 30px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -363,6 +365,53 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+
+.form-group{
+    display:flex;
+    flex-direction: column;
+    width: 70%;    
+}
+
+#form_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-bloc-8{
+    background: url(img/texture-paper.webp);
+    background-size: 280px 280px;
+    background-color: #F3976C;
+    text-align: center;
+    
+}
+
+.contact-coordonnees{
+    text-align: center;
+}
+
+.contact-social{
+    display:flex;
+    justify-content: space-around;
+}
+
+#contact-accueil{
+    margin-right: 0px;
+
+}
+
+.contact-accueil-li{
+    position: relative;
+    list-style-type: none;
+    top:-25px;
+    
+    
+}
+
+
+
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -657,9 +706,7 @@ a {
     color: #313131!important;
 }
 
-.container {
-    max-width: 1000px;
-}
+
 
 .hero-bloc-text {
     font-size: 38px;
@@ -778,7 +825,16 @@ h4 {
 }
 
 .tc-white {
-    color: #f8ad8b!important;
+    color: #313131!important;
+}
+
+.contact-presentation{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-presentation-titre{
+    text-align: center;
 }
 
 .btn-atomic-tangerine {
@@ -1028,6 +1084,10 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .contact-social{
+        flex-direction: column;
     }
 }
 
