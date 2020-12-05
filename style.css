@@ -406,7 +406,6 @@ a:hover {
     list-style-type: none;
     top:-25px;
     
-    
 }
 
 
@@ -825,7 +824,7 @@ h4 {
 }
 
 .tc-white {
-    color: #313131!important;
+    color: #F3976C!important;
 }
 
 .contact-presentation{
@@ -834,7 +833,11 @@ h4 {
 }
 
 .contact-presentation-titre{
-    text-align: center;
+    text-align: center; 
+}
+
+.contact-presentation-titre-couleur{
+    color: #313131!important;
 }
 
 .btn-atomic-tangerine {
