@@ -455,6 +455,16 @@ i:hover{
     text-decoration: underline;
 }
 
+a.social{
+
+ padding-top: 10px;
+ padding-bottom: 10px;   
+}
+
+i{
+    padding-top:10px;
+    padding-bottom:10px;
+}
 
 
 
