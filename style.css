@@ -13,6 +13,10 @@ button {
     outline: none!important;
 }
 
+.btn:focus-visible{
+    outline: 2px solid black !important;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
