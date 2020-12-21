@@ -22,9 +22,6 @@ a:hover {
     cursor: pointer;
 }
 
-i:hover{
-    text-decoration: underline;
-}
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -460,9 +457,15 @@ i:hover{
 }
 
 a.social{
+    transition: all 0s ease-in-out;
+    font-size:30px ;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
 
- padding-top: 10px;
- padding-bottom: 10px;   
+a.social:hover{
+    color:#FFFFFF;
+    text-decoration: underline;  
 }
 
 i{
@@ -1020,17 +1023,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
-    }
+    
     .b-parallax {
         background-attachment: scroll;
     }
